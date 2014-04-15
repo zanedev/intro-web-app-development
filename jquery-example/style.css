@@ -6,6 +6,9 @@ h1, h2 {
     color:#333333;
 }
 
+#demo-green{
+    background-color: green;
+}
 
 #intro {
     font-size: 18px;
@@ -14,7 +17,7 @@ h1, h2 {
 }
 
 .container {
-    background: white;
+    background:white;
     padding-bottom:10px;
     width:500px;
     margin: 0 auto;
@@ -36,10 +39,16 @@ li {
 }
 
 
-li button {
+li .btn {
+    /*display:none;*/
     float:right;
 }
 
-.books-section {
+/*li:hover .btn {*/
+    /*display:block;*/
+/*}*/
+
+.books-section li {
     margin-bottom:20px;
+    /*background-color: blue;*/
 }
